@@ -1,7 +1,6 @@
 #!/bin/bash
 sudo apt-get update
 sudo apt-get install python3-dev python3-venv
-python3 -m venv env
 env/bin/python -m pip install --upgrade pip setuptools wheel
 source env/bin/activate
 sudo apt-get update
